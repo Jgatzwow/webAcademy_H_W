@@ -1,23 +1,23 @@
-
 function getPeople(handshake) {
 
-    handshake = 0;
+    let shakedHands = 0
 
 
-    for (let countHuman = 1; handshake < 120; countHuman++) {
+
+    for (let countHuman = 1; shakedHands < handshake; countHuman++) {
 
 
-        handshake += countHuman;
+        shakedHands += countHuman;
 
-        console.log('Handshakes:', handshake, 'People entered:', countHuman);
+        console.log('Handshakes:', shakedHands, 'People entered:', countHuman);
 
 
     }
 
-    return handshake;
+    return shakedHands;
 
 
 }
 
+getPeople(120)
 
-console.log(getPeople())
