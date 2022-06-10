@@ -204,6 +204,7 @@ body {
     font-size: 36px;
     line-height: 42px;
     color: white;
+    text-align: center;
 }
 
 .right-side__header-btn {
@@ -271,7 +272,11 @@ body {
     border-radius: 40px;
 }
 
-
+.wrapper__list-item-today {
+    padding: 2px;
+    background: #3C82F9;
+    border-radius: 120px;
+}
 
 /* Js list styles end*/
 /*
