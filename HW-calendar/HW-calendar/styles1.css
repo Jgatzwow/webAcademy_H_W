@@ -235,6 +235,46 @@ body {
     color: #adadad;
 }
 
+
+/* Js list styles start*/
+.dates__wrapper-list {
+    margin: 0;
+    padding: 50px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+
+.wrapper__list-item {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 50px 0px;
+
+}
+
+.wrapper__list-link {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper__list-link:hover, .wrapper__list-link:focus {
+    padding: 8px;
+    background: #3C82F9;
+    border-radius: 40px;
+}
+
+
+
+/* Js list styles end*/
+/*
 .right-side__list-dates {
     margin: 0;
     padding: 50px 60px;
@@ -251,18 +291,43 @@ body {
     width: 13.6%;
     text-align: center;
     margin-bottom: 5px;
+}
+*/
+
+
+/*
+.dates__link {
+    text-decoration: none;
     color: white;
 }
+*/
 
-.list-dates__item-gr {
-    color: #adadad;
-}
-
-.list-dates__item-special {
+/*.dates__link:hover, .dates__link:focus {
     padding: 8px;
     box-sizing: border-box;
     background: #3C82F9;
     border-radius: 40px;
+}*/
+
+/*.dates__link-gr:hover, .dates__link-gr:focus {
+    padding: 8px 16px;
+    box-sizing: border-box;
+    background: #3C82F9;
+    border-radius: 40px;
+}*/
+
+
+/*
+.dates__link-sg:hover, .dates__link-sg:focus {
+    padding: 8px 16px;
+    box-sizing: border-box;
+    background: #3C82F9;
+    border-radius: 40px;
+}
+*/
+
+.dates__link-gr {
+    color: #adadad;
 }
 
 .right-side__list-days-wrapper {
@@ -607,23 +672,25 @@ body {
         transform: translateY(305%);
     }
 
-   .right-side__title {
-       text-align: center;
-       font-size: 22px;
-   }
+    .right-side__title {
+        text-align: center;
+        font-size: 22px;
+    }
 
     .first-block__title {
         padding-left: 30px;
     }
+
     .second-block__title {
-        padding-left:  30px;
+        padding-left: 30px;
     }
+
     .third-block__title {
-        padding-left:  30px;
+        padding-left: 30px;
     }
 
     .categories__title {
-        padding:  65px 0 0 0;
+        padding: 65px 0 0 0;
         font-size: 16px;
         text-align: center;
     }
