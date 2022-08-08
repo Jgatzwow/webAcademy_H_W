@@ -1,0 +1,44 @@
+@import "variables";
+
+.header {
+
+
+  .header__logo {
+    padding: 29px 0 29px 0;
+  }
+
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav__list-link {
+    text-decoration: none;
+    color: $fontColor;
+    &:hover,
+    &:focus {
+      color: #c53e07;
+      outline: none;
+    }
+
+    &.nav__list-link-btn {
+      background-color: #DDDBDA;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      &:hover,
+      &:focus{
+        background-color: $btnColorOrange;
+        color: $colorWhite;
+      }
+    }
+  }
+}
